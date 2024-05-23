@@ -1,0 +1,30 @@
+.videoplayer_container{
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+.videoplayer_container video{
+    width: 100%;
+    max-width: 980px;
+}
+
+
+.videoplayer_btn_container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10000;
+}
+
+.videoplayer_btn_container button{
+    color: #8B2351;
+    font-size: 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #8B2351;
+    background-color: rgba(255, 255, 255, 0.30);
+}
