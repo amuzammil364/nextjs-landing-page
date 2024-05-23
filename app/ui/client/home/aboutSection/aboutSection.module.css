@@ -1,0 +1,84 @@
+.about_section {
+  margin-top: 116px;
+  margin-bottom: 80px;
+  padding: 0 20px;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.about_section_content {
+  width: 100%;
+  text-align: center;
+}
+
+.about_section_icon {
+  width: 66px;
+  height: 66px;
+  background-color: #8b2351;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+}
+
+.about_section_title {
+  color: #151515;
+  font-size: 44px;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+.about_section_tagline {
+  color: #151515;
+  font-size: 16px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 26px;
+  margin-bottom: 40px;
+}
+
+.about_section_button {
+  padding: 18px 56px;
+  border: 1px solid #8b2351;
+  color: #151515;
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+/* Small devices (smartphones, less than 600px) */
+@media only screen and (max-width: 600px) {
+  .about_section_title {
+    font-size: 28px;
+  }
+
+  .about_section_tagline {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .about_section_icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .about_section_icon img {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+/* Medium devices (tablets, 600px - 900px) */
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  .about_section_title {
+    font-size: 36px;
+  }
+}
