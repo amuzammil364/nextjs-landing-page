@@ -1,0 +1,140 @@
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.contact_form_section {
+  padding: 100px 20px;
+  width: 100%;
+  background-image: url("/images/hand-holding-tree.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.contact_form_section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(22, 41, 55, 0.479);
+}
+
+.contact_form_section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: auto;
+  right: 0;
+  bottom: 0;
+  width: 80%;
+  height: 100%;
+  background: linear-gradient(
+    -100deg,
+    rgba(22, 41, 55, 1) 20%,
+    rgba(255, 255, 255, 0)
+  );
+}
+
+.contact_form {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.contact_form form {
+  width: 500px;
+  padding: 50px 40px;
+  background-color: rgba(23, 41, 56, 1);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.contact_form_question {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+.contact_form_title {
+  color: #fff;
+  font-size: 44px;
+  font-weight: bold;
+  margin-bottom: 28px;
+}
+
+.contact_form_group {
+  margin-bottom: 20px;
+}
+
+.contact_form_group input::placeholder,
+.contact_form_group textarea::placeholder {
+  color: #fff;
+}
+
+.contact_form_group input,
+.contact_form_group textarea {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  padding: 14px 20px;
+  border-radius: 6px;
+  border: none;
+}
+
+.contact_form_group textarea {
+  min-height: 160px;
+}
+
+.contact_form button {
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 16px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Small devices (smartphones, less than 600px) */
+@media only screen and (max-width: 600px) {
+  .contact_form_section {
+    padding-top: 66px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .contact_form_section::before {
+    width: 100%;
+    background-color: rgba(23, 41, 56, 1);
+  }
+
+  .contact_form form {
+    width: 100%;
+    padding: 0;
+    box-shadow: none;
+  }
+
+  .contact_form_title {
+    font-size: 28px;
+  }
+}
+
+/* Medium devices (tablets, 600px - 900px) */
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  .contact_form_title {
+    font-size: 36px;
+  }
+}
