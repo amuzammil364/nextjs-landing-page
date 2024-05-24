@@ -92,7 +92,9 @@
 @media only screen and (max-width: 600px) {
   .grid_content_conatiner {
     width: 100%;
-    background: rgb(0, 0, 0, 0.2);
+    background-image: url("/images/mobile-grid-background.png"); 
+    background-size: cover;
+    background-repeat: no-repeat;   
   }
 
   .grid_content_conatiner:hover {
@@ -112,6 +114,10 @@
     color: black;
     background: #fff;
   }
+  .grid_section video{
+    display: none;
+  }
+
 }
 
 /* Medium devices (tablets, 600px - 900px) */

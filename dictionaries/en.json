@@ -1,0 +1,31 @@
+{
+    "hero":{
+        "heading":"Welcome to Teach Lead Developer Challenge",
+        "paragraph":"Some football is ugly, sometimes football is bad. He was also very sad in the way he expected. It is not necessary to set up a vestibule."
+    },
+    "about":{
+        "heading":"Who is Aenean vulputate and pulvinar?",
+        "paragraph":"Maecenas is a pure soft protein. But it's easy, neither the body nor the makeup.",
+        "button":"About Us"
+    },
+    "grid":{
+        "heading1":"Financial statement",
+        "heading2":"Press releases",
+        "paragraph":"It was free of disease, no element, no pregnancy, but it was convenient. Even the porta itself but some diam, rutrum tincidunt fear mattis."
+    },
+    "aboutoperation":{
+        "heading":"Go to the base of the bow, the vehicles in the element of the keyboard, the throat and the tail",
+        "subheading":"For a quiver, the bed is not a trigger for vulputate, nor is it more convenient than mattis. Until the fermentation of the backyard, he needs to invest in the porch. Until it is pursued as a lion who is feugiat.",
+        "paragraph":"Who graduated from the boat? Maecenas pain ex, pulvinar in the vestibule football, the story should be a lot of lake. It was said that it was easy to get rid of propaganda, as easy as the rules of life. Until the time flatters no one or the author. Until it's not finished, it's a good sauce recipe. Maecenas scelerisque elit a lectus consecutio tincidunt.",
+        "button":"Read about operations"
+    },
+    "form":{
+        "heading":"Let's talk today!",
+        "subheading":"Any questions?",
+        "name":"Name",
+        "email":"Email",
+        "message":"Message",
+        "button":"Submit"
+    }
+
+}

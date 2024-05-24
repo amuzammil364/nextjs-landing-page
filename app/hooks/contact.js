@@ -5,16 +5,19 @@ import successToast from "../ui/components/toast/successToast/successToast";
 
 export const useContact = () => {
   const [loading, setLoading] = useState(false);
+  const [success, setSuccess] = useState(false);
 
   const sendContactDetail = async (data) => {
+        
     setLoading(true);
+    setSuccess(false);
     try {
       const res = await axios.post(
-        "http://localhost/wordpress_custom_plugins/wp-json/muzammil/v1/contact-form?token=a9fce432af0130bf5297e2a3bedad906",
+        process.env.NEXT_PUBLIC_REST_PLUGIN_API_ENDPOINT,
         data
       );
-      console.log(res);
       setLoading(false);
+      setSuccess(true);
       successToast(res?.data);
     } catch (err) {
       console.log(err);
@@ -26,5 +29,6 @@ export const useContact = () => {
   return {
     sendContactDetail,
     loading,
+    success,
   };
 };

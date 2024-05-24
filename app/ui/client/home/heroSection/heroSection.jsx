@@ -1,17 +1,15 @@
 import styles from "./heroSection.module.css";
 
-const HeroSection = () => {
+const HeroSection = ({lang}) => {
   return (
     <section className={styles.hero_section}>
       <div className={styles.container}>
         <div className={styles.hero_section_content}>
           <h1 className={styles.hero_section_title}>
-            Lorem ipsum dolor sit amet, consec
+            {lang.hero.heading}
           </h1>
           <p className={styles.hero_section_tagline}>
-            Aliquam eu malesuada turpis, eu interdum nibh. Etiam tristique erat
-            in ligula consequat malesuada. Praesent posuere vestibulum neque ac
-            posuere. 
+            {lang.hero.paragraph}
           </p>
         </div>
       </div>

@@ -1,10 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Project Setup
 
-## Getting Started
+1) run -> npm install
 
-First, run the development server:
 
-```bash
+2) Create .env.local and create these Variables in this file
+NEXT_PUBLIC_REST_PLUGIN_API_ENDPOINT={replace api endpoint}
+NEXT_PUBLIC_REST_PLUGIN_API_KEY={replace api key}
+
+Question:
+Where can we find the API endpoint and API key?
+
+Answer:
+Upload the WordPress plugin and activate it. After activation, you can see the Rest API Settings tab in your WordPress sidebar. Navigate to it, and you will find both the key and endpoint there.
+
+Note:
+The form will not function if the .env.local variables are not configured correctly or are incorrect.
+
+
+3) 
 npm run dev
 # or
 yarn dev
@@ -12,25 +25,11 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Challenging Part
 
-## Learn More
+The challenging part was embedding a YouTube video that should be played using our controls. When I tried to embed the video directly from YouTube, YouTube's default controls were visible, which was contrary to our design. So, I downloaded the video, uploaded it to my server, and then embedded it. This allowed me to control the play and stop functions of the video.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

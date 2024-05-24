@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "./aboutSection.module.css";
 import Link from "next/link";
 
-const AboutSection = () => {
+const AboutSection = ({lang}) => {
   return (
     <section className={styles.about_section}>
       <div className={styles.container}>
@@ -16,16 +16,13 @@ const AboutSection = () => {
             />
           </div>
           <h2 className={styles.about_section_title}>
-             Aenean vulputate quis est et pulvinar.{" "}
+            {lang.about.heading} {" "}
           </h2>
           <p className={styles.about_section_tagline}>
-            Maecenas dapibus turpis id purus mollis aliquam. Sed facilisis nec
-            ipsum nec rutrum.Maecenas dapibus turpis id purus mollis aliquam.
-            Sed facilisis nec ipsum nec rutrum.Maecenas dapibus turpis id purus
-            mollis aliquam. Sed facilisis nec ipsum nec
+            {lang.about.paragraph}
           </p>
           <Link href={"/"} className={styles.about_section_button}>
-            About us
+            {lang.about.button}
           </Link>
         </div>
       </div>

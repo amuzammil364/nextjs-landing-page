@@ -1,0 +1,17 @@
+.language_switcher_container{
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    width: 50px;
+    z-index: 1;
+}
+.language_switcher_container div{
+    margin-bottom: 20px;
+}
+.language_switcher_container a{
+    background-color: #8b2351;
+    border-radius: 50%;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+}

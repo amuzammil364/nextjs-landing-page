@@ -6,7 +6,7 @@
 .contact_form_section {
   padding: 100px 20px;
   width: 100%;
-  background-image: url("/images/hand-holding-tree.png");
+  background-image: url("/images/contact-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -45,7 +45,7 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .contact_form form {

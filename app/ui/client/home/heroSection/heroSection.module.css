@@ -2,7 +2,7 @@
   width: 100%;
   min-height: 700px;
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   justify-content: center;
   padding: 0 20px;
   background-image: url("/images/hero-section-bg.jpg");

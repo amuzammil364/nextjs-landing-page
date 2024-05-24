@@ -10,11 +10,15 @@ export const metadata = {
   description: "Lead developer challenge",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children, params }) {
+  
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
-      <ToastContainer />
+    <html lang={params.lang}>
+      <body className={inter.className}>
+        {children}
+        <ToastContainer />
+      </body>
+      
     </html>
   );
 }

@@ -25,6 +25,7 @@
   border-radius: 50%;
   border: 1px solid #8b2351;
   background-color: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
 }
 
 /* Small devices (smartphones, less than 600px) */

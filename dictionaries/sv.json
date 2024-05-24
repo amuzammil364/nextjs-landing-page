@@ -1,0 +1,33 @@
+{
+    "hero":{
+        "heading":"Välkommen till Teach Lead Developer Challenge",
+        "paragraph":"En del fotboll är ful, ibland är fotboll dålig. Han var också väldigt ledsen på det sätt han förväntade sig. Det är inte nödvändigt att sätta upp en vestibul."
+    },
+    "about":{
+        "heading":"Vem är Aenean vulputate och pulvinar?",
+        "paragraph":"Maecenas är ett rent mjukt protein. Men det är lätt, varken kroppen eller sminket.",
+        "button":"Om oss"
+    },
+    "grid":{
+        "heading1":"FINANSIERINGSÖVERSIKT",
+        "heading2":"pressmeddelande",
+        "paragraph":"Det var fritt från sjukdomar, inget element, ingen graviditet, men det var bekvämt. Även porta själv men några diam, rutrum tincidunt fruktan mattis"
+    },
+    "aboutoperation":{
+        "heading":"Gå till botten av fören, fordonen i tangentbordets element, halsen och svansen",
+        "subheading":"För en koger är sängen inte en utlösande faktor för vulputat, och den är inte heller bekvämare än mattis. Fram till bakgårdens jäsning behöver han investera i verandan. Tills det förföljs som ett lejon som är feugiat.",
+        "paragraph":"Vem tog examen från båten? Maecenas smärta ex, pulvinar i vestibulen fotboll, bör historien vara en hel del sjö. Det sades att det var lätt att bli av med propagandan, lika lätt som levnadsreglerna. Tills tiden smickrar ingen eller författaren. Tills det inte är färdigt är det ett bra såsrecept. Maecenas scelerisque elit a lectus consecutio tincidunt.",
+        "button":"Läs om verksamheten"
+    },
+    "form":{
+        "heading":"Låt oss prata idag!",
+        "subheading":"Några frågor?",
+        "name":"namn",
+        "email":"E-post",
+        "message":"Meddelande",
+        "button":"Skicka in"        
+    }
+
+
+
+}
